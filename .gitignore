@@ -1,0 +1,7 @@
+.env
+.fb_browser_data/
+storage/seen_posts.db
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store

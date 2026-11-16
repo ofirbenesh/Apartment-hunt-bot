@@ -1,0 +1,44 @@
+2026-06-05 15:18:52.357 | INFO     | scraper.facebook_scraper:_ensure_logged_in:58 - Facebook session active
+2026-06-05 15:18:52.364 | INFO     | __main__:main:86 - First run — seeding existing posts without sending notifications
+2026-06-05 15:18:58.068 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/18G39HFzpo/
+2026-06-05 15:19:02.804 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1Cp4bFkySH/
+2026-06-05 15:19:06.517 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1GhZ3p67LV/
+2026-06-05 15:19:08.409 | ERROR    | scraper.facebook_scraper:scrape_group:46 - Failed to scrape https://www.facebook.com/share/g/18axWjkF14/: Page.wait_for_timeout: Target page, context or browser has been closed
+2026-06-05 15:19:08.411 | ERROR    | scraper.facebook_scraper:scrape_group:46 - Failed to scrape https://www.facebook.com/share/g/14akgef1HmM/: Page.goto: Target page, context or browser has been closed
+2026-06-05 15:19:09.128 | INFO     | __main__:main:106 - Scheduler running — polling every 30 minutes
+2026-06-05 15:20:36.427 | INFO     | scraper.facebook_scraper:_ensure_logged_in:58 - Facebook session active
+2026-06-05 15:20:40.471 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/18G39HFzpo/
+2026-06-05 15:20:43.559 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1Cp4bFkySH/
+2026-06-05 15:20:47.857 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1GhZ3p67LV/
+2026-06-05 15:20:51.417 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/18axWjkF14/
+2026-06-05 15:20:51.785 | ERROR    | scraper.facebook_scraper:scrape_group:46 - Failed to scrape https://www.facebook.com/share/g/14akgef1HmM/: Page.goto: net::ERR_ABORTED at https://www.facebook.com/share/g/14akgef1HmM/
+Call log:
+  - navigating to "https://www.facebook.com/share/g/14akgef1HmM/", waiting until "domcontentloaded"
+
+2026-06-05 15:20:51.786 | INFO     | __main__:poll:53 - Poll complete — 0 new matches sent
+2026-06-05 15:20:51.818 | INFO     | __main__:main:106 - Scheduler running — polling every 30 minutes
+2026-06-05 15:23:32.467 | INFO     | scraper.facebook_scraper:_ensure_logged_in:58 - Facebook session active
+2026-06-05 15:23:49.255 | ERROR    | scraper.facebook_scraper:scrape_group:46 - Failed to scrape https://www.facebook.com/share/g/18G39HFzpo/: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("[role=\"article\"]") to be visible
+
+2026-06-05 15:24:04.827 | ERROR    | scraper.facebook_scraper:scrape_group:46 - Failed to scrape https://www.facebook.com/share/g/1Cp4bFkySH/: Page.wait_for_selector: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator("[role=\"article\"]") to be visible
+    - waiting for navigation to finish...
+    - navigated to "https://www.facebook.com/two_step_verification/authentication/?encrypted_context=AWRYiyPKQKjGggRHxDdoxqvofhaH8JpFimUfnFwAW6d0xyD9UjeN6Z4fS2qX_UYzotP-HeT2EaiJBxxiw9QXiaN989b9Sv7f4C7_vE0wqzyhdTpEhfcxhc…"
+
+2026-06-05 15:24:21.412 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1GhZ3p67LV/
+2026-06-05 15:24:25.981 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/18axWjkF14/
+2026-06-05 15:24:30.516 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/14akgef1HmM/
+2026-06-05 15:24:30.516 | INFO     | __main__:poll:53 - Poll complete — 0 new matches sent
+2026-06-05 15:24:30.534 | INFO     | __main__:main:106 - Scheduler running — polling every 30 minutes
+2026-06-05 15:40:17.622 | INFO     | scraper.facebook_scraper:_ensure_logged_in:58 - Facebook session active
+2026-06-05 15:40:22.722 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/18G39HFzpo/
+2026-06-05 15:40:23.372 | INFO     | __main__:poll:48 - Sent: רמת גן / None | 2.5 חד' | 5600 ₪
+2026-06-05 15:40:28.051 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1Cp4bFkySH/
+2026-06-05 15:40:32.294 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/1GhZ3p67LV/
+2026-06-05 15:40:37.134 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 2 posts from https://www.facebook.com/share/g/18axWjkF14/
+2026-06-05 15:40:41.143 | INFO     | scraper.facebook_scraper:scrape_group:43 - Scraped 1 posts from https://www.facebook.com/share/g/14akgef1HmM/
+2026-06-05 15:40:41.143 | INFO     | __main__:poll:53 - Poll complete — 1 new matches sent
+2026-06-05 15:40:41.143 | INFO     | __main__:main:106 - Scheduler running — polling every 30 minutes

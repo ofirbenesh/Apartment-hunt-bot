@@ -1,0 +1,63 @@
+search:
+  cities:
+    - "תל אביב"
+    - "רמת גן"
+    - "גבעתיים"
+
+  neighborhoods:
+    "גבעתיים":
+      - "קריית יוסף"
+      - "סיטי"
+      - "הל״ה"
+      - "בורוכוב"
+    "רמת גן":
+      - "הראשונים"
+      - "הבורסה"
+      - "תל בנימין"
+      - "חשמונאים"
+      - "גפן"
+    "תל אביב":
+      - "הצפון הישן"
+      - "צמרות איילון"
+      - "מונטיפיורי"
+      - "נחלת יצחק"
+
+  rooms:
+    min: 2
+    max: 3
+
+  price:
+    max: 6000
+    skip_if_no_price: true
+
+  floor:
+    min: null
+    max: null
+
+  features:
+    no_broker: true    # hard filter — drop listings that mention broker fees
+    balcony: false     # bonus feature (affects score only)
+    parking: false     # bonus feature
+    shelter: false     # bonus feature
+
+  available_within_days: 60
+
+facebook:
+  groups:
+    - "https://www.facebook.com/share/g/18G39HFzpo/"
+    - "https://www.facebook.com/share/g/1Cp4bFkySH/"
+    - "https://www.facebook.com/share/g/1GhZ3p67LV/"
+    - "https://www.facebook.com/share/g/18axWjkF14/"
+    - "https://www.facebook.com/share/g/14akgef1HmM/"
+  poll_interval_minutes: 30
+  headless: false      # set to true after first successful login
+
+telegram:
+  # tokens are loaded from .env — do not put secrets here
+  bot_token: ""
+  chat_id: ""
+
+notifications:
+  daily_summary: true
+  daily_summary_time: "09:00"
+  alert_on_bot_error: true
